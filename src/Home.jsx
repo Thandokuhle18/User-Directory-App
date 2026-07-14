@@ -34,8 +34,8 @@ function Home() {
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
       />
-      //Display loading message while data is being fetched
-      {loading ? (
+      
+      {loading ? (//Display loading message while data is being fetched
         <p>Loading...</p>
       ) : filteredUsers.length === 0 ? (
         //Displays a message when no matching users are found
