@@ -1,5 +1,4 @@
-
-
+// Displays a single user's information in a card format.
 function InfoCard({ user }) {
     return <div className="info-card">
         <div className="name-card">
