@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f9f7f6;
+  color: #444444;
+}
+
+.home {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 25px;
+}
+
+.home h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #343a40;
+  margin-bottom: 40px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+input {
+  width: 100%;
+  padding: 16px 18px;
+  font-size: 1rem;
+  border: 2px solid #e7d9dd;
+  border-radius: 14px;
+  outline: none;
+  margin-bottom: 45px;
+  transition: all 0.3s ease;
+  background: #ffffff;
+}
+
+input::placeholder {
+  color: #a0a0a0;
+}
+
+input:focus {
+  border-color: #d08a9a;
+  box-shadow: 0 0 0 5px rgba(208, 138, 154, 0.18);
+}
+
+.users-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 28px;
+}
+
+.info-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  border-top: 5px solid #0e0104;
+  transition: all 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.12);
+}
+
+.name-card {
+  margin-bottom: 18px;
+}
+
+.name-card h2 {
+  color: #343a40;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.email-card,
+.companyName-card {
+  margin-bottom: 12px;
+}
+
+.email-card h2,
+.companyName-card h2 {
+  color: #666666;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.loading,
+.no-users {
+  text-align: center;
+  margin-top: 40px;
+  color: #343a40;
+  font-size: 1.2rem;
+}
