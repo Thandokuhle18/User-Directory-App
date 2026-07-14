@@ -1,16 +1,66 @@
-# React + Vite
+# User Directory App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application that fetches user data from the JSONPlaceholder API and displays it in a clean, searchable directory.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Fetches user data from the JSONPlaceholder API
+* Displays each user's:
 
-## React Compiler
+  * Name
+  * Email Address
+  * Company Name
+* Controlled search input
+* Filters users by name in real time as you type
+* Displays **"No users found."** when no matches are found
+* Responsive card layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+* React
+* JavaScript (ES6+)
+* Vite
+* CSS3
+* JSONPlaceholder API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## API
+
+This project uses the JSONPlaceholder Users API:
+
+https://jsonplaceholder.typicode.com/users
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Thandokuhle18/User-Directory-App.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd User-Directory-App
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+## Author
+
+**Thandokuhle Maphanga**
+
