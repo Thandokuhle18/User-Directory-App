@@ -54,6 +54,7 @@ Start the development server:
 ```bash
 npm run dev
 ```
+live deployment link: https://effortless-queijadas-2b2479.netlify.app/
 
 Open your browser and visit:
 
